@@ -1,0 +1,70 @@
+﻿@model aendywebsite.Models.Product
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11248453738">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11248453738');
+    </script>
+
+    <!-- Event snippet for Lượt xem trang conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-11248453738/d9qqCM-xo7cYEOqQ1_Mp' });
+    </script>
+
+</head>
+<main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-7">
+                    <h2 class="portfolio-title">@Model.Title - @Model.Name</h2>
+
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+                            @foreach (var item in Model.Images.Split('#').ToList())
+                            {
+                                <div class="swiper-slide">
+                                    <img style="width: 100%; max-width: fit-content;" src="@item" alt="">
+                                </div>
+                            }
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 portfolio-info">
+                    <h3>THÔNG TIN SẢN PHẨM</h3>
+                    <hr />
+                    <ul>
+                        <li><strong>Name</strong>: @Model.Name</li>
+                        <li><strong>Title</strong>: @Model.Title</li>
+                        <li><strong>Price</strong>: <span class="fw-bold text-warning">@Model.Price</span></li>
+                        <li><strong>Description</strong>: @Model.Description</li>
+                        <li><a class="btn btn-outline-success mt-3 mb-2" target="_blank" href="@Model.LinkOrder"> ĐẶT MUA TRÊN SHOPEE <i class="bx bxs-right-arrow"></i></a></li>
+                    </ul>
+                    <hr />
+                    <ul>
+                        <li><div style="white-space: pre-wrap;">@Model.Specifications</div></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div><!-- End Portfolio Details -->
+
+</main><!-- End #main -->
