@@ -43,27 +43,22 @@ h1 {
 @keyframes astronautFly {
     0% {
         left: -100px;
-        top: 45%;
+        top: 30%;
     }
 
-    25% {
-        top: 55%;
-        transform: rotate(30deg);
+    40% {
+        top: 65%;
+        transform: rotate(50deg);
     }
 
-    50% {
-        transform: rotate(60deg);
-        top: 45%;
-    }
-
-    75% {
-        top: 55%;
+    65% {
+        top: 50%;
         transform: rotate(90deg);
     }
 
     100% {
         left: 110%;
-        top: 45%;
+        top: 30%;
         transform: rotate(120deg);
     }
 }

@@ -46,7 +46,6 @@ namespace aendywebsite.Controllers
             {
                 return View("Error");
             }
-
         }
         public ActionResult ProductDetail(int id)
         {
