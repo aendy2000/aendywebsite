@@ -569,9 +569,12 @@
                     }
                 </ul>
             </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+                <input id="searchProduct" style="text-align:center; height: 120%; " type="search" class="form-control bg-transparent text-white" placeholder="Nhập thông tin sản phẩm cần tìm" />
+            </div>
         </div>
-
-        <div class="row portfolio-container">
+        <hr style="margin-top:40px; margin-bottom: 20px" />
+        <div class="row portfolio-container" id="LstProducts">
             @foreach (var item in Model)
             {
                 int idcategories = item.ID_Categories;
@@ -580,10 +583,10 @@
                         <img src="@item.Images.Split('#')[0]" class="img-fluid" alt="Xem chi tiết @item.Name">
                         <div class="portfolio-info">
                             <h4>
-                                <a href="@Url.Action("ProductDetail", "Home", new {id = item.ID})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox text-white" title="Xem chi tiết @item.Title - @item.Name">@item.Name</a>
+                                <a name="tensp" href="@Url.Action("ProductDetail", "Home", new {id = item.ID})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox text-white" title="Xem chi tiết @item.Title - @item.Name">@item.Name</a>
                             </h4>
-                            <p>@item.Title</p>
-                            <p class="text-warning fw-bold">@item.Price</p>
+                            <p name="motasp">@item.Title</p>
+                            <p name="giasp" class="text-warning fw-bold">@item.Price</p>
                             <div class="portfolio-links">
                                 <a href="@Url.Action("ProductDetail", "Home", new {id = item.ID})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Xem chi tiết @item.Title - @item.Name"><i style="margin-top: 15px" class="bx bx-expand"></i></a>
                             </div>
@@ -591,7 +594,7 @@
                     </div>
                 </div>
             }
-
+            <div id="pagination"></div>
         </div>
 
     </div>
@@ -676,6 +679,7 @@
 <div class="credits">
     Copyright &copy; 2023 <a href="https://aendy.tech">Aendy.Tech</a>
 </div>
+
 
 <input hidden id="show-active-session" value="@Session["show-active"].ToString()" />
 <script>
