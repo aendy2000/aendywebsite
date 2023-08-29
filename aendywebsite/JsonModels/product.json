@@ -77,7 +77,18 @@
     "ID_Categories": 1
   },
   {
-    "ID": 8,
+ "ID": 8,
+    "Name": "Bàn phím Logitech G913 TKL Lightspeed Wireless",
+    "Title": "Logitech G915 TKL Bàn phím chơi game cơ học RGB không dây LIGHTSPEED",
+    "Price": "4.399.000 ₫",
+    "LinkOrder": "#",
+    "Description": "Một bước đột phá về thiết kế và kỹ thuật. LIGHTSPEED không dây đẳng cấp chuyên nghiệp, RGB LIGHTSYNC tiên tiến và các phím switch cơ có cấu hình thấp. Được chế tạo từ các vật liệu cao cấp. Có sẵn màu đen hoặc trắng.",
+    "Specifications": "KÍCH THƯỚC\nTHÔNG SỐ KỸ THUẬT THỰC TẾ\nĐộ dài: 368 mm\nChiều rộng: 150 mm\nChiều cao: 22 mm\nTrọng lượng: 810 g\nĐộ dài dây: 1,8 m\n\nTHÔNG SỐ KỸ THUẬT\nCÁC PHÍM SWITCH GL THẤP PHẢN HỒI SÂU\nkhoảng cách hành trình: 1,5 mm\nLực nhấn: 50 g\nTổng khoảng cách hành trình: 2,7 mm\n\nTUỔI THỌ PIN\n40 giờ (độ sáng 100%)\n\nBỘ NHỚ TÍCH HỢP\n2 cấu hình ánh sáng\n3 Cấu hình macro\n\nCÁC TÍNH NĂNG KHÁC\nLIGHTSPEED không dây\nBluetooth®\nLIGHTSYNC RGB, chiếu sáng từng phím\nNút điều khiển phương tiện chuyên biệt và nút xoay âm lượng bo tròn\n\nTHÔNG TIN BẢO HÀNH\nBảo hành phần cứng trong 2 năm\n\nMÃ PHỤ TÙNG (PART NUMBER)\nCarbon English Tactile: 920-009506\nCarbon English Clicky: 920-009540\nCarbon English Linear: 920-009523",
+     "Images": "https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fg915-tkl-gallery-3-carbon.png?alt=media&token=492f38bf-d238-4e1b-b865-251bc70451c9#https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fg915-tkl-gallery-4-carbon.png?alt=media&token=4a04e842-c31c-41c2-9b38-b9e02e98aef4#https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fg915-tkl-gallery-1-carbon.png?alt=media&token=165361cc-fd6b-469d-b043-d58eb3046552#https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fg915-tkl-gallery-5-carbon.png?alt=media&token=6cceffa5-1c7d-4e86-b73d-3ae4c13ea4ae#https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fg915-tkl-gallery-6-carbon.png?alt=media&token=20e8b5e8-fd94-42b7-915e-67d8ad7328a7#https://firebasestorage.googleapis.com/v0/b/dangvantuan-25ae7.appspot.com/o/8%2Fus-g915-tkl-carbon-gallery-topdown.png?alt=media&token=60037f72-857f-4237-913c-e109b9e12c7a",
+    "ID_Categories": 1
+  },
+  {
+    "ID": 9,
     "Name": "Logitech - G335 (Đen, Trắng)",
     "Title": "Tai nghe chơi game có dây",
     "Price": "1.590.000 ₫",
@@ -89,7 +100,7 @@
   }
   ,
   {
-    "ID": 9,
+    "ID": 10,
     "Name": "Logitech - PRO X",
     "Title": "Tai nghe chơi game",
     "Price": "3.490.000 ₫",
